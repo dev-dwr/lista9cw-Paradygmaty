@@ -1,5 +1,5 @@
 //zadanie 2 a
-class Time3(private var hour: Int, private var minute: Int) {
+class Time3(hour: Int, minute: Int) {
   if (!(0 <= hour && hour < 24)) throw new IllegalArgumentException()
   if (!(0 <= minute && minute < 60)) throw new IllegalArgumentException()
 
